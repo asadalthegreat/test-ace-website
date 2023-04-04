@@ -33,7 +33,7 @@ const Hero = () => {
       <div className=" w-full overflow-hidden flex justify-between items-center flex-wrap md:flex-nowrap mt-[100px] lg:mt-[170px] rounded-[12px]">
         <div className="mb-20 lg:mb-0">
           <div className=" flex items-end justify-between ">
-            <h1 className=" font-primary font-bold text-5xl w-full md:w-[390px] lg:text-[82px] leading-[100%] lg:w-[780px] mt-[63px] lg:h-[246px] bannerTitle">
+            <h1 className=" font-primary font-bold text-5xl w-full md:w-[390px] lg:text-[72px] leading-[100%] lg:w-[780px] mt-[63px] lg:h-[246px] bannerTitle">
             Gamified learning for top performing students - IELTS, TOEFL, & TOEIC
               <Image
                 src={joyStick}
