@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="mb-20 lg:mb-0">
           <div className=" flex items-end justify-between ">
             <h1 className=" font-primary font-bold text-5xl w-full md:w-[390px] lg:text-[82px] leading-[100%] lg:w-[780px] mt-[63px] lg:h-[246px] bannerTitle">
-              Gamified learning for top performing students
+            Gamified learning for top performing students - IELTS, TOEFL, & TOEIC
               <Image
                 src={joyStick}
                 alt="joystick.svg"
@@ -45,9 +45,8 @@ const Hero = () => {
             </h1>
           </div>
           <p className="text-[#424242] mt-6 font-secondary text-lg lg:w-[506px] w-[340px]">
-            Test Ace is a mobile app that revolutionizes the way you learn! With
-            our gamified learning approach, you&apos;ll not only learn faster
-            but also have fun doing it.
+          Test Ace is a mobile app that revolutionizes the way you learn! With our gamified learning approach,
+           you&apos;ll have fun learning faster, starting from a beginner level all the way to a perfect score!
           </p>
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSdm4l9WiHSz_G6hbGMYv4VrzH-2cxQoaBGpGB42nPNlSleGMQ/viewform"
