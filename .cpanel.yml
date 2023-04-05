@@ -1,5 +1,15 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/zlijrcgqajul/repositories/test-ace-website
+    - export DEPLOYPATH=/home/zlijrcgqajul/public_html
     - /bin/cp -R * $DEPLOYPATH
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/username/public_html # Set the deployment path
+    - /bin/cp -R * $DEPLOYPATH # Copy all files to the deployment path
+    - /usr/local/cpanel/bin/safeop deploy $DEPLOYPATH # Set appropriate permissions and ownership
+    triggers:
+  - event: push
+    branch: master
+
+
