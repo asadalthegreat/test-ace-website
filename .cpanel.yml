@@ -10,6 +10,6 @@ deployment:
     - /usr/local/cpanel/bin/safeop deploy $DEPLOYPATH # Set appropriate permissions and ownership
     triggers:
   - event: push
-    branch: master
+    branch: main
 
 
