@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/asadalthegreat/test-ace-website/src/
+    - /bin/cp -R src $DEPLOYPATH
